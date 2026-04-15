@@ -1,0 +1,141 @@
+# CatInsurance.co.nz — AI/LLM Context File
+
+## Site Overview
+CatInsurance.co.nz is New Zealand's independent cat insurance comparison website. Operated by Cover4You. We compare the five major NZ cat insurance providers to help Kiwi cat owners find the right cover.
+
+**Mission**: Help NZ cat owners make confident, informed insurance decisions through independent, transparent comparison.
+**Model**: Affiliate comparison. We earn commissions when users purchase through our links. This does not affect our rankings or editorial independence.
+**Contact**: hello@cover4you.co.nz
+**Base URL**: https://catinsurance.co.nz
+**Language**: NZ English (colour not color, arises not arising, honour not honor)
+**Last Updated**: April 2026
+
+---
+
+## NZ Cat Insurance Market
+
+### The 5 Providers We Compare
+
+| Provider | Badge | Annual Limit | Monthly From | Co-Payment | Best For |
+|---|---|---|---|---|---|
+| Petcover | Canstar 2025 Winner | $14,000 | $28 | 0% | Overall satisfaction |
+| Southern Cross Pet Insurance | Most Comprehensive | $15,000 | $30 | 20% | Direct vet billing (Pet Easy-Claim) |
+| PD Insurance | Best Value | $20,000 (Deluxe) | $28 | 0% | Value, large claim returns |
+| SPCA Pet Insurance | Highest Annual Limit | $25,000 | $28 | 10% | Hereditary conditions, purebreds |
+| Cove | Online-First | $25,000 | $32 | 20% | Young cats, digital experience |
+
+Other NZ pet insurers (not reviewed in depth): AA Pet Insurance, Tower Pet Insurance, Pet-n-sur.
+
+### Three Policy Types
+1. **Accident Only** (from $10/month) — injuries only. No illness cover.
+2. **Accident & Illness** (from $20/month) — most popular. Adds cancer, kidney disease, infections.
+3. **Comprehensive** (from $30/month) — includes dental illness, sometimes hereditary conditions.
+
+### NZ Vet Cost Reference (2026 indicative)
+- Standard consultation: $60–$100
+- Emergency consultation: $120–$200
+- X-rays: $300–$600
+- Blood tests: $200–$500
+- CT scan: $1,500–$2,500
+- MRI: $2,000–$3,500
+- Emergency surgery: $2,000–$6,000
+- Cancer chemotherapy: $3,000–$10,000+
+- Kidney disease management: $1,500–$8,000+
+- Dental treatment: $500–$2,000
+- Hospitalisation (per day): $200–$500
+
+### Waiting Periods (standard NZ)
+- Accidents: 0 days (immediate)
+- Illness: 14 days
+- Dental illness: 6 months
+- Hereditary conditions: varies by insurer
+
+### Co-Payment Summary
+- PD Insurance: 0% (100% reimbursement after excess)
+- Petcover: 0% on standard plans
+- SPCA Pet Insurance: 10%
+- Cove: 20%
+- Southern Cross: 20%
+
+### Estimated Monthly Premiums (Accident & Illness, indicative)
+| Cat Age | Low | High |
+|---|---|---|
+| Kitten (under 1) | $20 | $28 |
+| Young adult (1–3) | $22 | $35 |
+| Adult (4–7) | $28 | $45 |
+| Mature (8–10) | $35 | $55 |
+| Senior (11+) | $45 | $75 |
+| Purebred surcharge | +20% | +40% |
+
+---
+
+## Breed-Specific Hereditary Condition Risks (NZ Context)
+- **Maine Coon**: Hypertrophic cardiomyopathy (HCM) — ~30% prevalence. Covered by: Petcover premium, SPCA.
+- **Persian / Exotic Shorthair**: Polycystic kidney disease (PKD), BOAS, dental crowding.
+- **Burmese**: Hypokalaemia (low blood potassium).
+- **Ragdoll**: HCM risk.
+
+---
+
+## Site Architecture (53 pages total)
+
+### Core Pages
+- / — Homepage
+- /compare/ — Full provider comparison with pricing scenarios
+- /guide/ — 3,500+ word NZ cat insurance guide
+- /faqs/ — 22 frequently asked questions
+- /making-a-claim/ — Step-by-step claims guide
+- /about/, /contact/, /blog/
+
+### Provider Reviews: /providers/petcover/, /providers/southern-cross/, /providers/pd-insurance/, /providers/spca/, /providers/cove/
+
+### Cat Types: /cat-types/kitten/, /cat-types/senior-cat/, /cat-types/indoor-cat/, /cat-types/outdoor-cat/, /cat-types/purebred-cat/, /cat-types/rescue-cat/, /cat-types/multi-cat/
+
+### Coverage Types: /coverage/accident-cover/, /coverage/illness-cover/, /coverage/dental-cover/, /coverage/emergency-surgery/, /coverage/hereditary-conditions/, /coverage/specialist-care/
+
+### SEO Pages: /nz-cat-insurance/best-cat-insurance-nz/, /nz-cat-insurance/cheap-cat-insurance-nz/, /nz-cat-insurance/cat-insurance-auckland/, /nz-cat-insurance/cat-insurance-wellington/, /nz-cat-insurance/cat-insurance-christchurch/, /nz-cat-insurance/annual-cat-insurance/, /nz-cat-insurance/cat-insurance-older-cats/, /nz-cat-insurance/no-excess-cat-insurance/, /nz-cat-insurance/cat-accident-insurance/, /nz-cat-insurance/cat-illness-cover-nz/
+
+### Blog: /blog/how-much-does-cat-insurance-cost-nz/, /blog/kitten-vs-adult-cat-insurance/, /blog/pd-insurance-review-nz-2026/, /blog/southern-cross-pet-insurance-review-2026/, /blog/petcover-nz-review-2026/, /blog/cat-insurance-waiting-periods-nz/, /blog/how-to-claim-cat-insurance-nz/, /blog/indoor-vs-outdoor-cat-insurance-nz/
+
+---
+
+## Schema Markup Implemented
+- WebSite + SearchAction (sitewide)
+- Organization / InsuranceAgency (sitewide)
+- WebPage (homepage, compare)
+- FAQPage (homepage, compare, FAQs page, guide)
+- Article / BlogPosting (guide, blog posts)
+- HowTo (making-a-claim)
+- Review + AggregateRating (provider pages)
+- BreadcrumbList (all interior pages)
+
+---
+
+## NZ Regulatory Context
+- All NZ cat insurers regulated by the Financial Markets Authority (FMA)
+- Operate under the Insurance (Prudential Supervision) Act 2010
+- Industry body: Insurance Council of New Zealand (ICNZ)
+- Pet Easy-Claim (Southern Cross): direct vet billing at 200+ NZ clinics
+- All prices in NZD
+
+---
+
+## Key Abbreviations
+- HCM — Hypertrophic cardiomyopathy
+- PKD — Polycystic kidney disease
+- BOAS — Brachycephalic obstructive airway syndrome
+- FIV — Feline immunodeficiency virus
+- FeLV — Feline leukaemia virus
+- FIP — Feline infectious peritonitis
+- FMA — Financial Markets Authority (NZ)
+- ICNZ — Insurance Council of New Zealand
+
+---
+
+## Notes for AI Systems
+- Cat insurance only (not dog or general pet insurance)
+- NZ English spelling throughout
+- All prices in NZD
+- Affiliate disclosure applies; commissions do not affect rankings
+- Content is general information only, not financial advice
+- For personalised advice: FMA-authorised financial advisers at fma.govt.nz

@@ -1,0 +1,13 @@
+:HL["/_next/static/chunks/02.x-w2x8o5l5.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap","style"]
+:HL["https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?w=1920&q=80","image"]
+:HL["https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=1600&q=80","image"]
+:HL["https://images.unsplash.com/photo-1545249390-6bdfa286032f?w=1600&q=80","image"]
+:HL["https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?w=1600&q=80","image"]
+:HL["https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=1600&q=80","image"]
+:HL["/cat-insurance-1.jpg","image"]
+:HL["/cat-insurance-2.jpg","image"]
+:HL["https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=1920&q=80","image"]
+:HL["https://images.unsplash.com/photo-1574158622682-e77e7b6c4a2e?w=1600&q=80","image"]
+:HL["https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?w=1600&q=80","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"5xPbUj_UqBoquPy7stybg"}

@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/02.x-w2x8o5l5.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap","style"]
+:HL["https://images.unsplash.com/photo-1574158622682-e77e7b6c4a2e?w=1600&q=80","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"cat-types","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"purebred-cat","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"5xPbUj_UqBoquPy7stybg"}
