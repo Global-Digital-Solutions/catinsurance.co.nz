@@ -22,9 +22,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+const BREED_IMAGES: Record<string, string> = {
+  'domestic-shorthair': 'photo-1543466835-00a7907e9de1',
+  'ragdoll':            'photo-1573865526537-6a6e5b20a869',
+  'maine-coon':         'photo-1514888286974-6c03e2ca1dba',
+  'persian':            'photo-1574158622682-e40e69881006',
+  'british-shorthair':  'photo-1596854407944-bf87f6fdd049',
+  'bengal':             'photo-1555685812-4b943f1cb0eb',
+  'siamese':            'photo-1561948955-570b270e7c36',
+  'burmese':            'photo-1548247416-ec66f4900b2e',
+  'russian-blue':       'photo-1560114928-40f1f1eb26a0',
+  'scottish-fold':      'photo-1587300003388-59208cc962cb',
+  'devon-rex':          'photo-1529778873920-4da4926a72c2',
+  'abyssinian':         'photo-1495360010541-f48722b34f7d',
+};
+
 export default function BreedPage({ params }: Props) {
   const breed = catBreeds.find((b) => b.slug === params.slug);
   if (!breed) notFound();
+
+  const heroPhotoId = BREED_IMAGES[breed.slug] ?? 'photo-1543466835-00a7907e9de1';
+  const heroImage = `https://images.unsplash.com/${heroPhotoId}?auto=format&fit=crop&w=1920&q=80`;
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -50,25 +68,35 @@ export default function BreedPage({ params }: Props) {
         ]}
       />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-6xl">{breed.icon}</span>
+      {/* Hero — photo background */}
+      <section className="relative text-white min-h-[65vh] flex items-end">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/50 to-emerald-900/20" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="text-5xl drop-shadow-lg">{breed.icon}</span>
+            <span className="text-sm font-medium bg-emerald-500/80 backdrop-blur-sm px-3 py-1 rounded-full">
+              Insurance Guide
+            </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-2">{breed.name} Cat Insurance NZ</h1>
-          <p className="text-emerald-100 text-lg max-w-2xl">{breed.description}</p>
-          <div className="mt-4 flex flex-wrap gap-3 text-sm">
-            <span className="bg-emerald-500/30 border border-emerald-400/40 px-3 py-1 rounded-full">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">
+            {breed.name} Cat Insurance NZ
+          </h1>
+          <p className="text-white/90 text-lg max-w-2xl mb-5">{breed.description}</p>
+          <div className="flex flex-wrap gap-3 text-sm">
+            <span className="bg-white/15 backdrop-blur-sm border border-white/20 px-3 py-1.5 rounded-full">
               🌍 {breed.origin}
             </span>
-            <span className="bg-emerald-500/30 border border-emerald-400/40 px-3 py-1 rounded-full">
+            <span className="bg-white/15 backdrop-blur-sm border border-white/20 px-3 py-1.5 rounded-full">
               📅 {breed.lifespan}
             </span>
-            <span className="bg-emerald-500/30 border border-emerald-400/40 px-3 py-1 rounded-full">
+            <span className="bg-white/15 backdrop-blur-sm border border-white/20 px-3 py-1.5 rounded-full">
               ⚖️ {breed.weight}
             </span>
-            <span className="bg-emerald-500/30 border border-emerald-400/40 px-3 py-1 rounded-full">
+            <span className="bg-emerald-500/80 backdrop-blur-sm border border-emerald-400/40 px-3 py-1.5 rounded-full font-semibold">
               💰 Insurance from {breed.avgMonthlyPremium}
             </span>
           </div>

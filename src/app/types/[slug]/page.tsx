@@ -22,9 +22,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+const COVERAGE_IMAGES: Record<string, string> = {
+  'accident-only':    'photo-1548767797-d8c844163c4a',
+  'accident-illness': 'photo-1573865526537-6a6e5b20a869',
+  'comprehensive':    'photo-1514888286974-6c03e2ca1dba',
+  'dental-care':      'photo-1561948955-570b270e7c36',
+  'wellness-care':    'photo-1529778873920-4da4926a72c2',
+  'senior-cat':       'photo-1495360010541-f48722b34f7d',
+};
+
 export default function CoverageTypePage({ params }: Props) {
   const type = coverageTypes.find((t) => t.slug === params.slug);
   if (!type) notFound();
+
+  const heroPhotoId = COVERAGE_IMAGES[type.slug] ?? 'photo-1514888286974-6c03e2ca1dba';
+  const heroImage = `https://images.unsplash.com/${heroPhotoId}?auto=format&fit=crop&w=1920&q=80`;
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -50,19 +62,27 @@ export default function CoverageTypePage({ params }: Props) {
         ]}
       />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-4 mb-4">
-            <span className="text-5xl">{type.icon}</span>
+      {/* Hero — photo background */}
+      <section className="relative text-white min-h-[60vh] flex items-end">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-900/55 to-emerald-900/25" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
+          <div className="flex items-center gap-3 mb-4">
+            <span className="text-5xl drop-shadow-lg">{type.icon}</span>
+            <span className="text-sm font-medium bg-emerald-500/80 backdrop-blur-sm px-3 py-1 rounded-full">
+              Coverage Guide
+            </span>
           </div>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3">{type.title}</h1>
-          <p className="text-emerald-100 text-lg max-w-2xl">{type.description}</p>
-          <div className="mt-5 flex items-center gap-4">
-            <span className="bg-emerald-500/40 border border-emerald-400/40 px-4 py-1.5 rounded-full text-sm font-semibold">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{type.title}</h1>
+          <p className="text-white/90 text-lg max-w-2xl mb-5">{type.description}</p>
+          <div className="flex items-center gap-4">
+            <span className="bg-emerald-500/80 backdrop-blur-sm border border-emerald-400/40 px-4 py-1.5 rounded-full text-sm font-semibold">
               From {type.monthlyFrom}
             </span>
-            <Link href="/compare" className="text-emerald-200 hover:text-white text-sm underline">
+            <Link href="/compare" className="text-white/80 hover:text-white text-sm underline underline-offset-2">
               Compare all providers →
             </Link>
           </div>

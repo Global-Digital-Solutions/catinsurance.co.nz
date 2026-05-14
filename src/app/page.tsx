@@ -28,17 +28,31 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      {/* Hero — full viewport height */}
+      <section className="relative min-h-screen flex items-center text-white">
+        {/* Background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=1920&q=80)' }}
+        />
+        {/* Gradient overlay — stronger on left for text legibility */}
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/90 via-slate-900/75 to-slate-900/30" />
+        {/* Scroll hint arrow */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-bounce">
+          <svg className="w-6 h-6 text-white/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-emerald-500/30 border border-emerald-400/40 rounded-full px-4 py-1.5 text-sm mb-6">
               <span className="text-emerald-200">🐱</span>
               <span className="text-emerald-100">Compare 6 NZ Cat Insurance Providers</span>
             </div>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-5">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-5">
               Cat Insurance NZ —<br />
-              <span className="text-emerald-200">Compare &amp; Save</span>
+              <span className="text-emerald-300">Compare &amp; Save</span>
             </h1>
             <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
               Only 1 in 10 Kiwi cat owners insure their cats — leaving most exposed to vet bills of $3,000–$15,000. Compare New Zealand&apos;s six cat insurance providers side by side and find the right cover for your cat.
@@ -46,13 +60,13 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
                 href="/compare"
-                className="bg-white text-emerald-700 hover:bg-emerald-50 font-semibold px-6 py-3 rounded-lg transition-colors text-center"
+                className="bg-emerald-500 hover:bg-emerald-400 text-white font-semibold px-8 py-3.5 rounded-lg transition-colors text-center shadow-lg"
               >
                 Compare All Providers →
               </Link>
               <Link
                 href="/cat-insurance/best-cat-insurance-nz"
-                className="border border-emerald-300 text-white hover:bg-emerald-500/30 font-medium px-6 py-3 rounded-lg transition-colors text-center"
+                className="border border-white/40 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 font-medium px-6 py-3.5 rounded-lg transition-colors text-center"
               >
                 Best Cat Insurance NZ
               </Link>
