@@ -33,8 +33,8 @@ const BREED_IMAGES: Record<string, string> = {
   'burmese':            '/hero-burmese.jpg',
   'russian-blue':       '/hero-russian-blue.jpg',
   'scottish-fold':      '/hero-scottish-fold.jpg',
-  'devon-rex':          '/hero-cats-3.jpg',
-  'abyssinian':         '/hero-cats-4.jpg',
+  'devon-rex':          '/hero-devon-rex.jpg',
+  'abyssinian':         '/hero-abyssinian.jpg',
 };
 
 export default function BreedPage({ params }: Props) {

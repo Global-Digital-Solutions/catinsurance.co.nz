@@ -15,8 +15,8 @@ const BREED_CARD_IMAGES: Record<string, string> = {
   'burmese':            '/hero-burmese.jpg',
   'russian-blue':       '/hero-russian-blue.jpg',
   'scottish-fold':      '/hero-scottish-fold.jpg',
-  'devon-rex':          'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=400&q=75',
-  'abyssinian':         'https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=400&q=75',
+  'devon-rex':          '/hero-devon-rex.jpg',
+  'abyssinian':         '/hero-abyssinian.jpg',
 };
 
 export const metadata: Metadata = {
