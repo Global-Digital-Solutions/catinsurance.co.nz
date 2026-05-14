@@ -253,7 +253,7 @@ When comparing policies, look specifically for:
     date: '2025-03-20',
     readTime: '7 min read',
     category: 'Breed Guide',
-    image: '/hero-cats-2.jpg',
+    image: '/hero-ragdoll.jpg',
     metaTitle: 'Ragdoll Cat Insurance NZ — HCM Cover & Best Plans | CatInsurance.co.nz',
     metaDescription: 'Ragdoll cat insurance in NZ. Which insurers cover HCM and hereditary conditions? Compare the best insurance for Ragdoll cats from NZ\'s top providers.',
     content: `Ragdolls are one of New Zealand's most popular pedigree cats — loved for their docile temperament, large size and striking blue eyes. But Ragdolls carry significant genetic health risks that make comprehensive insurance essential.
