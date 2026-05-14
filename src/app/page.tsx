@@ -48,14 +48,14 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-emerald-500/30 border border-emerald-400/40 rounded-full px-4 py-1.5 text-sm mb-6">
               <span className="text-emerald-200">🐱</span>
-              <span className="text-emerald-100">Compare 6 NZ Cat Insurance Providers</span>
+              <span className="text-emerald-100">Compare 6 Cat Insurance Providers</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-5">
               Cat Insurance NZ —<br />
               <span className="text-emerald-300">Compare &amp; Save</span>
             </h1>
             <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
-              Only 1 in 10 Kiwi cat owners insure their cats — leaving most exposed to vet bills of $3,000–$15,000. Compare New Zealand&apos;s six cat insurance providers side by side and find the right cover for your cat.
+              Only 1 in 10 Kiwi cat owners insure their cats — leaving most exposed to vet bills of $3,000–$15,000. Compare six cat insurance providers side by side and find the right cover for your cat.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <Link
@@ -169,7 +169,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Insure Your Cat in NZ?</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Insure Your Cat?</h2>
               <p className="text-slate-600 mb-6 leading-relaxed">
                 New Zealand vet costs have risen 8–12% annually in recent years. A single emergency surgery can cost $3,000–$6,000. Cancer treatment can reach $15,000. Most NZ cat owners don&apos;t have this kind of money sitting aside for their pet.
               </p>
@@ -194,7 +194,7 @@ export default function HomePage() {
             <div className="space-y-4">
               <div className="bg-emerald-50 border border-emerald-200 rounded-xl p-6">
                 <div className="text-4xl font-bold text-emerald-600 mb-2">1 in 10</div>
-                <p className="text-slate-700">NZ cat owners have insurance — a huge opportunity to protect your cat financially.</p>
+                <p className="text-slate-700">Only 1 in 10 cat owners have insurance — a huge opportunity to protect your cat financially.</p>
               </div>
               <div className="bg-white border border-slate-200 rounded-xl p-6">
                 <h3 className="font-semibold text-slate-900 mb-3">Key Benefits of Cat Insurance</h3>
@@ -291,7 +291,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-10">
             <div>
               <h2 className="text-3xl font-bold text-slate-900">Cat Insurance Guides</h2>
-              <p className="text-slate-500 mt-1">Expert advice for NZ cat owners</p>
+              <p className="text-slate-500 mt-1">Expert advice for cat owners</p>
             </div>
             <Link href="/blog" className="text-emerald-600 hover:text-emerald-700 font-medium text-sm">
               View all articles →
@@ -383,7 +383,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-slate-900">Cat Insurance by Location</h2>
-            <p className="text-slate-500 mt-2">Local guides for major NZ cities</p>
+            <p className="text-slate-500 mt-2">Local guides for your city</p>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[

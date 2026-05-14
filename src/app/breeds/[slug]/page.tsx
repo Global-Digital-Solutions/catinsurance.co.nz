@@ -83,7 +83,7 @@ export default function BreedPage({ params }: Props) {
             </span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">
-            {breed.name} Cat Insurance NZ
+            {breed.name} Cat Insurance
           </h1>
           <p className="text-white/90 text-lg max-w-2xl mb-5">{breed.description}</p>
           <div className="flex flex-wrap gap-3 text-sm">
