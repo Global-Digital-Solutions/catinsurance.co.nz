@@ -9,7 +9,7 @@ const BREED_CARD_IMAGES: Record<string, string> = {
   'ragdoll':            '/hero-ragdoll.jpg',
   'maine-coon':         '/hero-maine-coon.jpg',
   'persian':            '/hero-persian.jpg',
-  'british-shorthair':  'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&q=75',
+  'british-shorthair':  '/hero-british-shorthair.jpg',
   'bengal':             '/hero-bengal.jpg',
   'siamese':            '/hero-siamese.jpg',
   'burmese':            '/hero-burmese.jpg',
