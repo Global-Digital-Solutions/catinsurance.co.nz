@@ -33,7 +33,7 @@ export default function HomePage() {
         {/* Background image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&w=1920&q=80)' }}
+          style={{ backgroundImage: 'url(/hero-cats-1.jpg)' }}
         />
         {/* Gradient overlay — stronger on left for text legibility */}
         <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/90 via-slate-900/75 to-slate-900/30" />

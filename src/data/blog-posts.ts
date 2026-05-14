@@ -155,7 +155,7 @@ A savings account wins for perfectly healthy cats with no chronic conditions —
     date: '2025-04-01',
     readTime: '9 min read',
     category: 'Policy Guide',
-    image: 'https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=800&q=80',
     metaTitle: 'What Does Cat Insurance Cover in NZ? Full Policy Guide | CatInsurance.co.nz',
     metaDescription: 'Full guide to what NZ cat insurance covers and excludes. Accidents, illness, hereditary conditions, pre-existing, dental, wellness — all explained.',
     content: `Cat insurance policies can be confusing. Here's a plain-English guide to exactly what New Zealand cat insurance covers — and what it doesn't.
@@ -253,7 +253,7 @@ When comparing policies, look specifically for:
     date: '2025-03-20',
     readTime: '7 min read',
     category: 'Breed Guide',
-    image: 'https://images.unsplash.com/photo-1551534890-f5ce0fd40b0f?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1573865526537-6a6e5b20a869?w=800&q=80',
     metaTitle: 'Ragdoll Cat Insurance NZ — HCM Cover & Best Plans | CatInsurance.co.nz',
     metaDescription: 'Ragdoll cat insurance in NZ. Which insurers cover HCM and hereditary conditions? Compare the best insurance for Ragdoll cats from NZ\'s top providers.',
     content: `Ragdolls are one of New Zealand's most popular pedigree cats — loved for their docile temperament, large size and striking blue eyes. But Ragdolls carry significant genetic health risks that make comprehensive insurance essential.
@@ -303,7 +303,7 @@ Ragdoll premiums are higher than domestic shorthair premiums due to breed-specif
     date: '2025-03-05',
     readTime: '7 min read',
     category: 'Breed Guide',
-    image: 'https://images.unsplash.com/photo-1534083820025-4b31f8eaae6a?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1479065476818-424362b0cf5f?w=800&q=80',
     metaTitle: 'Persian Cat Insurance NZ — PKD & Hereditary Cover | CatInsurance.co.nz',
     metaDescription: 'Persian cat insurance in NZ. Which insurers cover PKD, brachycephalic conditions and hereditary diseases? Compare the best Persian cat insurance plans.',
     content: `Persian cats are among the most distinctive and beloved breeds in New Zealand — but their iconic flat faces and luxurious coats come with significant health trade-offs. Here's everything NZ Persian owners need to know about insurance.
@@ -356,7 +356,7 @@ Annual dental add-ons typically add $8–$15/month.`,
     date: '2025-02-20',
     readTime: '12 min read',
     category: 'Buying Guide',
-    image: 'https://images.unsplash.com/photo-1501820488136-72669149e0d4?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=800&q=80',
     metaTitle: 'Cat Insurance NZ Beginner\'s Guide 2025 — How It Works | CatInsurance.co.nz',
     metaDescription: 'Complete beginner\'s guide to cat insurance in NZ. How it works, what to look for, how to claim and how to choose the right policy. Plain English for NZ cat owners.',
     content: `If you've just got a cat — or you've owned cats for years but never bought insurance — this guide explains everything you need to know about cat insurance in New Zealand.
@@ -430,7 +430,7 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
     date: '2025-02-05',
     readTime: '6 min read',
     category: 'Policy Guide',
-    image: 'https://images.unsplash.com/photo-1520367745676-56196632073f?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=800&q=80',
     metaTitle: 'How to Claim Cat Insurance NZ — Step by Step Guide | CatInsurance.co.nz',
     metaDescription: 'Step-by-step guide to claiming cat insurance in NZ. How to claim with SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance.',
     content: `Making a cat insurance claim doesn't have to be stressful. Here's how to claim with each of New Zealand's major cat insurance providers.
@@ -512,7 +512,7 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
     date: '2025-01-22',
     readTime: '7 min read',
     category: 'Breed Guide',
-    image: 'https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=800&q=80',
     metaTitle: 'Maine Coon Cat Insurance NZ — HCM & Hip Dysplasia Cover | CatInsurance.co.nz',
     metaDescription: 'Maine Coon cat insurance in NZ. Which insurers cover HCM, SMA and hip dysplasia? Compare the best insurance for Maine Coon cats in New Zealand.',
     content: `Maine Coons are magnificent cats — the largest domestic breed, known for their dog-like personalities and stunning coats. But their size and genetics bring significant health considerations that every NZ Maine Coon owner should understand before choosing insurance.
@@ -720,7 +720,7 @@ PD Insurance's 100% reimbursement model is genuinely unique and makes claim math
     date: '2024-11-28',
     readTime: '8 min read',
     category: 'Policy Guide',
-    image: 'https://images.unsplash.com/photo-1511044568932-338ceba04105?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1561948955-570b270e7c36?w=800&q=80',
     metaTitle: 'Cat Insurance Pre-existing Conditions NZ — What\'s Covered? | CatInsurance.co.nz',
     metaDescription: 'How NZ cat insurers treat pre-existing conditions. Which conditions are excluded? Can you get cover for pre-existing conditions? NZ cat insurance guide.',
     content: `Pre-existing conditions are the most common source of frustration for NZ cat insurance claimants. Understanding how insurers treat them — and which insurer offers unique pre-existing condition cover — can make a significant difference to your cat's coverage.
@@ -786,7 +786,7 @@ If your claim is declined citing a pre-existing condition, ask the insurer to sp
     date: '2024-11-10',
     readTime: '8 min read',
     category: 'Comparison',
-    image: 'https://images.unsplash.com/photo-1548681528-6a5c45dbe38f?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&q=80',
     metaTitle: 'SPCA Pet Insurance vs Southern Cross Cat Insurance NZ | CatInsurance.co.nz',
     metaDescription: 'SPCA Pet Insurance vs Southern Cross — detailed NZ cat insurance comparison. Claims, cover, pricing and features compared head-to-head.',
     content: `SPCA Pet Insurance and Southern Cross are two of the most trusted names in NZ cat insurance. Both have strong reputations — but they take very different approaches. Here's a direct comparison to help you choose.

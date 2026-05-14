@@ -23,26 +23,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const BREED_IMAGES: Record<string, string> = {
-  'domestic-shorthair': 'photo-1543466835-00a7907e9de1',
-  'ragdoll':            'photo-1573865526537-6a6e5b20a869',
-  'maine-coon':         'photo-1514888286974-6c03e2ca1dba',
-  'persian':            'photo-1574158622682-e40e69881006',
-  'british-shorthair':  'photo-1596854407944-bf87f6fdd049',
-  'bengal':             'photo-1555685812-4b943f1cb0eb',
-  'siamese':            'photo-1561948955-570b270e7c36',
-  'burmese':            'photo-1548247416-ec66f4900b2e',
-  'russian-blue':       'photo-1560114928-40f1f1eb26a0',
-  'scottish-fold':      'photo-1587300003388-59208cc962cb',
-  'devon-rex':          'photo-1529778873920-4da4926a72c2',
-  'abyssinian':         'photo-1495360010541-f48722b34f7d',
+  'domestic-shorthair': '/hero-cats-1.jpg',
+  'ragdoll':            '/hero-cats-2.jpg',
+  'maine-coon':         '/hero-cats-3.jpg',
+  'persian':            '/hero-cats-4.jpg',
+  'british-shorthair':  '/hero-cats-1.jpg',
+  'bengal':             '/hero-cats-2.jpg',
+  'siamese':            '/hero-cats-3.jpg',
+  'burmese':            '/hero-cats-4.jpg',
+  'russian-blue':       '/hero-cats-1.jpg',
+  'scottish-fold':      '/hero-cats-2.jpg',
+  'devon-rex':          '/hero-cats-3.jpg',
+  'abyssinian':         '/hero-cats-4.jpg',
 };
 
 export default function BreedPage({ params }: Props) {
   const breed = catBreeds.find((b) => b.slug === params.slug);
   if (!breed) notFound();
 
-  const heroPhotoId = BREED_IMAGES[breed.slug] ?? 'photo-1543466835-00a7907e9de1';
-  const heroImage = `https://images.unsplash.com/${heroPhotoId}?auto=format&fit=crop&w=1920&q=80`;
+  const heroImage = BREED_IMAGES[breed.slug] ?? '/hero-cats-1.jpg';
 
   const faqSchema = {
     '@context': 'https://schema.org',

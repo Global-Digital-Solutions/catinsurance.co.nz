@@ -23,20 +23,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const COVERAGE_IMAGES: Record<string, string> = {
-  'accident-only':    'photo-1548767797-d8c844163c4a',
-  'accident-illness': 'photo-1573865526537-6a6e5b20a869',
-  'comprehensive':    'photo-1514888286974-6c03e2ca1dba',
-  'dental-care':      'photo-1561948955-570b270e7c36',
-  'wellness-care':    'photo-1529778873920-4da4926a72c2',
-  'senior-cat':       'photo-1495360010541-f48722b34f7d',
+  'accident-only':    '/hero-cats-1.jpg',
+  'accident-illness': '/hero-cats-2.jpg',
+  'comprehensive':    '/hero-cats-3.jpg',
+  'dental-care':      '/hero-cats-4.jpg',
+  'wellness-care':    '/hero-cats-1.jpg',
+  'senior-cat':       '/hero-cats-2.jpg',
 };
 
 export default function CoverageTypePage({ params }: Props) {
   const type = coverageTypes.find((t) => t.slug === params.slug);
   if (!type) notFound();
 
-  const heroPhotoId = COVERAGE_IMAGES[type.slug] ?? 'photo-1514888286974-6c03e2ca1dba';
-  const heroImage = `https://images.unsplash.com/${heroPhotoId}?auto=format&fit=crop&w=1920&q=80`;
+  const heroImage = COVERAGE_IMAGES[type.slug] ?? '/hero-cats-1.jpg';
 
   const faqSchema = {
     '@context': 'https://schema.org',
