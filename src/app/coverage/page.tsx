@@ -5,11 +5,47 @@ import { coverageTypes } from '@/data/coverage-types';
 export const metadata: Metadata = {
   title: 'Cat Insurance Coverage Types NZ — Compare Cover Options',
   description: 'Compare cat insurance coverage types in New Zealand. Accident only, accident and illness, comprehensive, dental, wellness and senior cat cover explained.',
+  openGraph: {
+    title: 'Cat Insurance Coverage Types NZ — Compare Cover Options',
+    description: 'All six cat insurance coverage types explained — accident only, accident & illness, comprehensive, dental, wellness and senior cat cover.',
+    url: 'https://catinsurance.co.nz/coverage',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cat Insurance Coverage Types NZ',
+    description: 'All six cat insurance coverage types explained — from accident only to comprehensive cover.',
+  },
+};
+
+const coverageCollectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Cat Insurance Coverage Types NZ',
+  url: 'https://catinsurance.co.nz/coverage',
+  description: 'All six cat insurance coverage types available in New Zealand — from accident only to comprehensive cover.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+  },
+  hasPart: [
+    { '@type': 'WebPage', name: 'Accident Only Cover', url: 'https://catinsurance.co.nz/types/accident-only' },
+    { '@type': 'WebPage', name: 'Accident & Illness Cover', url: 'https://catinsurance.co.nz/types/accident-illness' },
+    { '@type': 'WebPage', name: 'Comprehensive Cover', url: 'https://catinsurance.co.nz/types/comprehensive' },
+    { '@type': 'WebPage', name: 'Dental Care Cover', url: 'https://catinsurance.co.nz/types/dental-care' },
+    { '@type': 'WebPage', name: 'Wellness Care', url: 'https://catinsurance.co.nz/types/wellness-care' },
+    { '@type': 'WebPage', name: 'Senior Cat Insurance', url: 'https://catinsurance.co.nz/types/senior-cat' },
+  ],
 };
 
 export default function CoveragePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(coverageCollectionSchema) }}
+      />
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cat Insurance Coverage Types</h1>

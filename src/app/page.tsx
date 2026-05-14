@@ -11,6 +11,11 @@ export const metadata: Metadata = {
     description: 'New Zealand\'s independent cat insurance comparison site. Compare 6 providers, find the best cover for your cat.',
     url: 'https://catinsurance.co.nz',
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cat Insurance — Compare & Save | CatInsurance.co.nz',
+    description: 'Compare 6 NZ cat insurance providers side by side. Cover from $11/month. 100% independent.',
+  },
 };
 
 const badgeColorMap: Record<string, string> = {

@@ -5,6 +5,30 @@ import { providers } from '@/data/providers';
 export const metadata: Metadata = {
   title: 'Compare Cat Insurance NZ — All 6 Providers Side by Side',
   description: 'Compare all 6 NZ cat insurance providers side by side. SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance compared on price, cover, claims and more.',
+  openGraph: {
+    title: 'Compare Cat Insurance NZ — All 6 Providers Side by Side',
+    description: 'Compare all 6 NZ cat insurance providers side by side — price, cover, claims speed and key features. 100% independent.',
+    url: 'https://catinsurance.co.nz/compare',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Compare Cat Insurance NZ — All 6 Providers',
+    description: 'Compare SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance side by side.',
+  },
+};
+
+const compareSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: 'Compare Cat Insurance NZ — All 6 Providers Side by Side',
+  url: 'https://catinsurance.co.nz/compare',
+  description: 'Compare all 6 NZ cat insurance providers side by side — price, cover, claims speed, hereditary conditions and key features.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+  },
 };
 
 const badgeColorMap: Record<string, string> = {
@@ -19,6 +43,10 @@ const badgeColorMap: Record<string, string> = {
 export default function ComparePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(compareSchema) }}
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

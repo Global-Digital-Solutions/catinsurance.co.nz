@@ -19,6 +19,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: type.metaTitle,
     description: type.metaDescription,
+    openGraph: {
+      title: type.metaTitle,
+      description: type.metaDescription,
+      url: `https://catinsurance.co.nz/types/${params.slug}`,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: type.metaTitle,
+      description: type.metaDescription,
+    },
   };
 }
 

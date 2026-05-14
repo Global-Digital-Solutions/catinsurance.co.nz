@@ -3,11 +3,40 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact CatInsurance.co.nz — Get in Touch',
   description: 'Contact the CatInsurance.co.nz team. Questions about cat insurance in NZ? We\'re here to help.',
+  openGraph: {
+    title: 'Contact CatInsurance.co.nz — Get in Touch',
+    description: 'Questions about cat insurance? Corrections to our content? Get in touch with the CatInsurance.co.nz team.',
+    url: 'https://catinsurance.co.nz/contact',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Contact CatInsurance.co.nz',
+    description: 'Questions about cat insurance? Get in touch with our team.',
+  },
+};
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact CatInsurance.co.nz',
+  url: 'https://catinsurance.co.nz/contact',
+  description: 'Contact CatInsurance.co.nz — questions about cat insurance, content corrections or feedback.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+    email: 'hello@cover4you.co.nz',
+  },
 };
 
 export default function ContactPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(contactSchema) }}
+      />
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">Contact Us</h1>

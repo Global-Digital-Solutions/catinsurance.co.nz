@@ -48,7 +48,7 @@ export default function Footer() {
           <div>
             <h3 className="text-white text-sm font-semibold mb-3">Resources</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Cat Insurance Blog</Link></li>
+              <li><Link href="/blog" className="hover:text-emerald-400 transition-colors">Insurance Resources</Link></li>
               <li><Link href="/faqs" className="hover:text-emerald-400 transition-colors">FAQs</Link></li>
               <li><Link href="/cat-insurance/best-cat-insurance-nz" className="hover:text-emerald-400 transition-colors">Best Cat Insurance NZ</Link></li>
               <li><Link href="/cat-insurance/cheap-cat-insurance-nz" className="hover:text-emerald-400 transition-colors">Cheap Cat Insurance NZ</Link></li>

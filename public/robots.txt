@@ -1,7 +1,13 @@
+# robots.txt — CatInsurance.co.nz
+# Updated: 2026-05-14
+
+# Allow all standard search engine crawlers
 User-agent: *
 Allow: /
+Disallow: /thank-you
+Disallow: /api/
 
-# AI crawlers - allow indexing but block training scraping
+# AI training scrapers — blocked
 User-agent: GPTBot
 Disallow: /
 
@@ -17,10 +23,10 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-User-agent: FacebookBot
+User-agent: PerplexityBot
 Disallow: /
 
-User-agent: Omgilibot
+User-agent: Bytespider
 Disallow: /
 
 Sitemap: https://catinsurance.co.nz/sitemap.xml

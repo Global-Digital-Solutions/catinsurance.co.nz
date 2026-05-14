@@ -3,8 +3,32 @@ import Link from 'next/link';
 import { blogPosts } from '@/data/blog-posts';
 
 export const metadata: Metadata = {
-  title: 'Cat Insurance Blog NZ — Expert Guides & Advice',
+  title: 'Cat Insurance Resources NZ — Expert Guides & Advice',
   description: 'Expert cat insurance guides for New Zealand cat owners. Breed guides, policy comparisons, claims advice and money-saving tips.',
+  openGraph: {
+    title: 'Cat Insurance Resources NZ — Expert Guides & Advice',
+    description: 'Expert cat insurance guides — breed guides, policy comparisons, claims advice and money-saving tips for Kiwi cat owners.',
+    url: 'https://catinsurance.co.nz/blog',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cat Insurance Resources NZ',
+    description: 'Expert cat insurance guides — breed guides, policy comparisons, claims advice and money-saving tips.',
+  },
+};
+
+const blogCollectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: 'Cat Insurance Resources',
+  url: 'https://catinsurance.co.nz/blog',
+  description: 'Expert cat insurance guides — breed guides, policy comparisons, claims advice and money-saving tips.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+  },
 };
 
 export default function BlogPage() {
@@ -12,11 +36,15 @@ export default function BlogPage() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogCollectionSchema) }}
+      />
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cat Insurance Blog</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cat Insurance Resources</h1>
           <p className="text-emerald-100 text-lg max-w-2xl">
-            Expert guides and advice for New Zealand cat owners — from buying guides to breed-specific insurance tips.
+            Expert guides and advice for cat owners — from buying guides to breed-specific insurance tips.
           </p>
         </div>
       </section>

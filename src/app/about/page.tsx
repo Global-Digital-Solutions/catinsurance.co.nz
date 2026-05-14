@@ -4,11 +4,39 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About CatInsurance.co.nz — NZ\'s Independent Cat Insurance Guide',
   description: 'About CatInsurance.co.nz — New Zealand\'s independent cat insurance comparison and information service. We help Kiwi cat owners compare providers and find the right cover.',
+  openGraph: {
+    title: 'About CatInsurance.co.nz — NZ\'s Independent Cat Insurance Guide',
+    description: 'New Zealand\'s independent cat insurance comparison and information service. We help Kiwi cat owners compare providers and find the right cover.',
+    url: 'https://catinsurance.co.nz/about',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About CatInsurance.co.nz',
+    description: 'New Zealand\'s independent cat insurance comparison and information service.',
+  },
+};
+
+const aboutSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: 'About CatInsurance.co.nz',
+  url: 'https://catinsurance.co.nz/about',
+  description: 'CatInsurance.co.nz is New Zealand\'s independent cat insurance comparison and information service.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+  },
 };
 
 export default function AboutPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">About CatInsurance.co.nz</h1>

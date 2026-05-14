@@ -22,11 +22,53 @@ const BREED_CARD_IMAGES: Record<string, string> = {
 export const metadata: Metadata = {
   title: 'Cat Insurance by Breed NZ — Find Cover for Your Cat Breed',
   description: 'Find cat insurance advice for your specific breed in New Zealand. Compare insurance for Ragdolls, Maine Coons, Persians, British Shorthairs and more.',
+  openGraph: {
+    title: 'Cat Insurance by Breed NZ — Find Cover for Your Cat Breed',
+    description: 'Breed-specific cat insurance advice for Ragdolls, Maine Coons, Persians, British Shorthairs, Bengals and all popular NZ breeds.',
+    url: 'https://catinsurance.co.nz/breeds',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Cat Insurance by Breed NZ',
+    description: 'Breed-specific cat insurance advice for all popular NZ breeds.',
+  },
+};
+
+const breedsCollectionSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Cat Insurance by Breed NZ',
+  url: 'https://catinsurance.co.nz/breeds',
+  description: 'Breed-specific cat insurance guidance for Ragdolls, Maine Coons, Persians, British Shorthairs, Bengals and all popular NZ cat breeds.',
+  publisher: {
+    '@type': 'Organization',
+    name: 'CatInsurance.co.nz',
+    url: 'https://catinsurance.co.nz',
+  },
+  hasPart: [
+    { '@type': 'WebPage', name: 'Domestic Shorthair Insurance', url: 'https://catinsurance.co.nz/breeds/domestic-shorthair' },
+    { '@type': 'WebPage', name: 'Ragdoll Insurance', url: 'https://catinsurance.co.nz/breeds/ragdoll' },
+    { '@type': 'WebPage', name: 'Maine Coon Insurance', url: 'https://catinsurance.co.nz/breeds/maine-coon' },
+    { '@type': 'WebPage', name: 'Persian Insurance', url: 'https://catinsurance.co.nz/breeds/persian' },
+    { '@type': 'WebPage', name: 'British Shorthair Insurance', url: 'https://catinsurance.co.nz/breeds/british-shorthair' },
+    { '@type': 'WebPage', name: 'Bengal Insurance', url: 'https://catinsurance.co.nz/breeds/bengal' },
+    { '@type': 'WebPage', name: 'Siamese Insurance', url: 'https://catinsurance.co.nz/breeds/siamese' },
+    { '@type': 'WebPage', name: 'Burmese Insurance', url: 'https://catinsurance.co.nz/breeds/burmese' },
+    { '@type': 'WebPage', name: 'Russian Blue Insurance', url: 'https://catinsurance.co.nz/breeds/russian-blue' },
+    { '@type': 'WebPage', name: 'Scottish Fold Insurance', url: 'https://catinsurance.co.nz/breeds/scottish-fold' },
+    { '@type': 'WebPage', name: 'Devon Rex Insurance', url: 'https://catinsurance.co.nz/breeds/devon-rex' },
+    { '@type': 'WebPage', name: 'Abyssinian Insurance', url: 'https://catinsurance.co.nz/breeds/abyssinian' },
+  ],
 };
 
 export default function BreedsPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breedsCollectionSchema) }}
+      />
       <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl sm:text-4xl font-bold mb-3">Cat Insurance by Breed</h1>
