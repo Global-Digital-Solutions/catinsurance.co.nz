@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const BREED_IMAGES: Record<string, string> = {
   'domestic-shorthair': '/hero-cats-1.jpg',
   'ragdoll':            '/hero-cats-2.jpg',
-  'maine-coon':         '/hero-cats-3.jpg',
+  'maine-coon':         '/hero-maine-coon.jpg',
   'persian':            '/hero-cats-4.jpg',
   'british-shorthair':  '/hero-cats-1.jpg',
   'bengal':             '/hero-cats-2.jpg',
