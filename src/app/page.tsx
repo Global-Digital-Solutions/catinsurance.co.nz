@@ -4,10 +4,10 @@ import { providers } from '@/data/providers';
 import { blogPosts } from '@/data/blog-posts';
 
 export const metadata: Metadata = {
-  title: 'Cat Insurance NZ — Compare NZ Cat Insurance Providers | CatInsurance.co.nz',
+  title: 'Cat Insurance — Compare Cat Insurance Providers | CatInsurance.co.nz',
   description: 'Compare cat insurance in New Zealand. Find the best cover for your cat from SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance. Cat cover from $11/month.',
   openGraph: {
-    title: 'Cat Insurance NZ — Compare NZ Cat Insurance Providers',
+    title: 'Cat Insurance — Compare Cat Insurance Providers',
     description: 'New Zealand\'s independent cat insurance comparison site. Compare 6 providers, find the best cover for your cat.',
     url: 'https://catinsurance.co.nz',
   },
@@ -51,7 +51,7 @@ export default function HomePage() {
               <span className="text-emerald-100">Compare 6 Cat Insurance Providers</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-5">
-              Cat Insurance NZ —<br />
+              Cat Insurance —<br />
               <span className="text-emerald-300">Compare &amp; Save</span>
             </h1>
             <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
@@ -75,7 +75,7 @@ export default function HomePage() {
               <span>✓ 6 providers compared</span>
               <span>✓ From $11/month</span>
               <span>✓ 100% independent</span>
-              <span>✓ Updated 2025</span>
+              <span>✓ Updated 2026</span>
             </div>
           </div>
         </div>

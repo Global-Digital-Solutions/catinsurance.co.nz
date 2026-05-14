@@ -22,9 +22,29 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+// Rotate through 4 custom hero images based on slug
+const PAGE_IMAGES: Record<string, string> = {
+  'best-cat-insurance-nz':                       '/hero-cats-3.jpg',  // group of cats
+  'cheap-cat-insurance-nz':                      '/hero-cats-4.jpg',  // cat outdoors
+  'cat-insurance-for-kittens-nz':                '/hero-cats-1.jpg',  // woman + cats
+  'cat-insurance-for-older-cats-nz':             '/hero-cats-2.jpg',  // cat on sofa
+  'cat-insurance-hereditary-conditions-nz':      '/hero-cats-3.jpg',  // group of cats
+  'cat-insurance-no-excess-nz':                  '/hero-cats-4.jpg',  // cat outdoors
+  'cat-insurance-auckland':                      '/hero-cats-1.jpg',
+  'cat-insurance-wellington':                    '/hero-cats-2.jpg',
+  'cat-insurance-christchurch':                  '/hero-cats-3.jpg',
+  'cat-insurance-hamilton':                      '/hero-cats-4.jpg',
+  'cat-insurance-tauranga':                      '/hero-cats-1.jpg',
+  'cat-insurance-dunedin':                       '/hero-cats-2.jpg',
+  'cat-insurance-napier-hastings':               '/hero-cats-3.jpg',
+  'cat-insurance-palmerston-north':              '/hero-cats-4.jpg',
+};
+
 export default function InsuranceLandingPage({ params }: Props) {
   const page = insurancePages.find((p) => p.slug === params.slug);
   if (!page) notFound();
+
+  const heroImage = PAGE_IMAGES[page.slug] ?? '/hero-cats-1.jpg';
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -54,13 +74,18 @@ export default function InsuranceLandingPage({ params }: Props) {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-emerald-600 to-teal-700 text-white py-14">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3">{page.heroHeading}</h1>
-          <p className="text-emerald-100 text-lg max-w-2xl">{page.heroSubheading}</p>
+      {/* Hero — photo background */}
+      <section className="relative text-white min-h-[55vh] flex items-end">
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/92 via-slate-900/60 to-emerald-900/20" />
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-3 drop-shadow-md">{page.heroHeading}</h1>
+          <p className="text-white/90 text-lg max-w-2xl mb-4">{page.heroSubheading}</p>
           {page.localStats && (
-            <div className="mt-5 bg-emerald-500/30 border border-emerald-400/40 rounded-lg p-3 max-w-xl">
+            <div className="bg-white/15 backdrop-blur-sm border border-white/20 rounded-lg p-3 max-w-xl">
               <p className="text-sm text-emerald-100">{page.localStats}</p>
             </div>
           )}

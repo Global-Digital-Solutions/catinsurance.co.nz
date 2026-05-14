@@ -332,39 +332,86 @@ Comprehensive plans add: infections and illness, hereditary conditions, chronic 
     city: '',
     region: 'New Zealand',
     title: 'Best Cat Insurance',
-    metaTitle: 'Best Cat Insurance NZ 2025 — Top Providers Compared | CatInsurance.co.nz',
-    metaDescription: 'Find the best cat insurance in New Zealand for 2025. Compare SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance. Expert NZ cat insurance comparison.',
-    heroHeading: 'Best Cat Insurance 2025',
-    heroSubheading: 'Expert comparison of cat insurance providers — find the best for your cat',
-    intro: 'Choosing the best cat insurance depends on your cat\'s age, breed, health history and your budget. We\'ve researched all six major cat insurers to help you find the right fit.',
-    localStats: 'New Zealand has approximately 1.2 million pet cats. Vet costs have increased 8–12% annually in recent years, making insurance increasingly valuable for cat owners.',
+    metaTitle: 'Best Cat Insurance NZ 2026 — Top 6 Providers Compared | CatInsurance.co.nz',
+    metaDescription: 'Find the best cat insurance in New Zealand for 2026. Independent expert comparison of all 6 NZ cat insurance providers. SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance reviewed.',
+    heroHeading: 'Best Cat Insurance 2026',
+    heroSubheading: 'Independent expert comparison of all 6 NZ cat insurance providers — find the right cover for your cat',
+    intro: 'Choosing the best cat insurance depends on your cat\'s age, breed, health history and your budget. We\'ve independently researched all six major cat insurers operating in New Zealand to help you find the right fit — whether you\'re insuring a kitten, a senior moggy or a pedigree breed.',
+    localStats: 'New Zealand has approximately 1.2 million pet cats, yet only 1 in 10 are insured. Vet costs have increased 8–12% annually — a single specialist treatment can now cost $5,000–$15,000.',
     localVets: [],
-    bodyContent: `With six major cat insurance providers in New Zealand, finding the "best" depends on what matters most to you. Here's our expert analysis.
+    bodyContent: `With six major cat insurance providers to choose from, "best" depends entirely on your cat and your priorities. This guide cuts through the marketing language to give you a clear, honest breakdown of every provider — so you can make a genuinely informed decision.
 
-**Best for fastest claims: SPCA Pet Insurance.** Claims settled in 1–2 business days — fastest in NZ. Also unique in covering non-chronic pre-existing conditions.
+**Why Cat Insurance Matters More Than Ever**
 
-**Best for comprehensive cover: Southern Cross.** Most flexible plan with optional dental, wellness and consultation extras. Great for proactive owners who want full-service cover.
+Veterinary costs in New Zealand have risen sharply over the past five years. After-hours emergency consultations now typically cost $200–$450. Diagnostic imaging (X-ray, ultrasound, MRI) runs $400–$1,200. Specialist surgery for conditions like intestinal blockage, cruciate repair or cancer can range from $3,000 to $15,000 or more. For many cat owners, this is not a bill they can absorb without serious financial strain.
 
-**Best for 100% reimbursement: PD Insurance.** No co-payment, no excess — you claim back 100% of eligible vet bills. Ideal if you want certainty about claim amounts.
+Cat insurance transfers this risk in exchange for a monthly premium — typically $19–$65/month depending on the plan and your cat's profile. Across a year, that's $228–$780. A single major claim can recoup ten years of premiums instantly. Even routine illness — a urinary blockage, a bite wound that becomes infected, a hyperthyroid diagnosis requiring lifelong medication — can cost $1,500–$3,500. Insurance makes the vet visit about your cat's health, not your bank balance.
 
-**Best for older cats: Pet-n-Sur.** Accepts new policies up to 11 years 11 months — far ahead of other NZ insurers. 100% NZ-owned with 19+ years in operation.
+**The 6 Best Cat Insurance Providers in New Zealand (2026)**
 
-**Best value online: Cove.** Online-first model with competitive premiums, $25,000 annual limit and coverage for hereditary AND congenital conditions. Up to 10% multi-policy discount.
+**1. SPCA Pet Insurance — Best for Fastest Claims**
 
-**Best established provider: Petcover.** 40+ years of experience, 93% of claims paid, 9 in 10 claims settled within 5 days. Trusted by 250,000+ NZ pet owners.
+SPCA Pet Insurance consistently leads on claims speed, with most claims settled in 1–2 business days. This matters enormously in practice: most NZ vets require payment at point of service, meaning you're out of pocket until your claim is processed. A 1–2 day turnaround versus a competitor's 5–10 days is a meaningful quality-of-life difference.
 
-**Key factors in choosing the best cat insurance:**
+What sets SPCA apart further is their stance on pre-existing conditions. They are the only NZ provider that will cover non-chronic pre-existing conditions under some circumstances — a meaningful advantage if your cat has had minor past ailments. Annual limits sit at $15,000 with no sub-limits per condition. Entry accepted up to age 9. Premiums typically start at $20/month for a domestic shorthair.
 
-1. **Annual limit** — higher is better ($15,000–$25,000 recommended for comprehensive cover)
-2. **Claims turnaround** — fast reimbursement matters when you've paid vet bills upfront
-3. **Hereditary conditions** — essential for pedigree breeds (avoid Southern Cross if your cat is a pedigree)
-4. **Entry age** — if your cat is over 7, only Pet-n-Sur and some Cove plans remain open
-5. **Co-payment** — lower co-pay (0–10%) means more back at claim time
-6. **Chronic condition cap** — ensure ongoing conditions aren't capped per year`,
+**2. Southern Cross PetCare — Best for Comprehensive Cover**
+
+Southern Cross brings the brand strength of one of NZ's most trusted health insurers to the pet space. Their PetCare plans are the most modular on the market: base accident + illness cover can be supplemented with optional dental cover, optional wellness and preventive care, and consultation fee benefits. For owners who want a single comprehensive policy covering everything from annual check-ups to specialist surgery, Southern Cross is the best structured offering.
+
+The main limitation: Southern Cross does not cover hereditary or congenital conditions. This makes them a poor choice for pedigree breeds like Ragdolls (predisposed to heart disease), Persians (polycystic kidney disease) or Maine Coons (spinal muscular atrophy). Entry is also limited to cats under 7 years. Premiums from $11/month for their entry-level plan.
+
+**3. Petcover — Best Established Provider**
+
+With 40+ years operating in Australasia and over 250,000 NZ pet owners covered, Petcover brings depth of experience that newer fintechs cannot match. They pay 93% of all claims submitted and 9 in 10 claims are settled within 5 business days. Their Premier plan covers accidents, illness, hereditary conditions and congenital conditions — making it a strong all-rounder for pedigree cat owners. Annual limits up to $15,000, entry accepted to age 9.
+
+**4. Cove — Best Value Online**
+
+Cove launched as an online-first insurer and has rapidly grown its pet insurance offering. Their key advantages: a $25,000 annual limit (highest of any NZ cat insurer), coverage for both hereditary AND congenital conditions as standard, no sub-limits per condition type, and a 10% multi-policy discount. For tech-savvy owners who want maximum coverage limits at competitive premiums, Cove is hard to beat. Premiums from $19/month.
+
+**5. Pet-n-Sur — Best for Older Cats**
+
+Pet-n-Sur is 100% New Zealand owned and has operated since 2004, making them the longest-running specialist pet insurer in the country. Their defining advantage is entry age: Pet-n-Sur accepts new policies for cats up to 11 years 11 months — significantly higher than any competitor. If you have an older cat and have been told by other insurers that your cat is "too old," Pet-n-Sur is almost certainly your best option. Premiums from $20/month, with age-loading applied for senior cats.
+
+**6. PD Insurance — Best for 100% Reimbursement**
+
+PD Insurance operates on a fundamentally different model to other NZ cat insurers. Their plans feature $0 excess and 0% co-payment — meaning you claim back 100% of eligible vet bills with no deductions. This predictability is valuable: you know exactly what you'll get back before making a claim. No age loadings are applied as your cat ages. Premiums from $22/month.
+
+**How to Choose the Best Cat Insurance for Your Situation**
+
+**If your cat is a kitten (under 2):** Insure now to lock in the lowest premiums and ensure all conditions that develop are covered (not pre-existing). PD Insurance or Cove offer strong value for kittens with no age loading and high annual limits.
+
+**If your cat is a pedigree breed:** Hereditary condition cover is non-negotiable. Southern Cross excludes it entirely. Cove, Petcover, SPCA Pet Insurance and PD Insurance all cover hereditary conditions — compare their specific breed exclusions before purchasing.
+
+**If your cat is over 7:** Pet-n-Sur is your primary option above 9 years. Between 7–9, most providers still accept new policies but premiums climb significantly. Apply sooner rather than later.
+
+**If fast claims are your priority:** SPCA Pet Insurance's 1–2 day turnaround is unmatched. Second best is Petcover at 5 days.
+
+**If maximum annual limit matters:** Cove's $25,000 limit beats all other NZ providers.
+
+**Key Policy Terms to Understand**
+
+Annual limit: The maximum the insurer pays in any 12-month policy period. Range in NZ: $10,000–$25,000. A higher limit is always preferable, particularly for chronic or ongoing conditions that may require multiple treatments per year.
+
+Excess: A fixed amount deducted per claim or per condition before the insurer pays. Common structures: $0, $100, $200, $500, $1,000. A higher excess reduces your premium but means more out-of-pocket at claim time.
+
+Co-payment: The percentage of each eligible claim you pay yourself. Standard in NZ: 10%–30%. PD Insurance offers 0% co-payment. Higher co-pay = lower premiums but less back at claim time.
+
+Benefit rate: Some policies (Southern Cross, Pet-n-Sur) pay a percentage of a "benefit schedule" rather than actual vet costs. This can mean you receive less than you expect if your vet charges above the schedule rate.
+
+Pre-existing conditions: Any condition showing signs or symptoms before your policy start date is typically excluded. No NZ insurer covers genuinely pre-existing conditions. Waiting periods (14–30 days) apply to illness claims after policy inception.
+
+**What Does Cat Insurance Typically Cover?**
+
+All standard cat insurance plans in NZ cover accidents and illness — meaning injuries from road accidents, wounds, infections, cancer, kidney disease, diabetes and most other conditions not classified as pre-existing. Comprehensive plans add hereditary conditions (genetic disorders common to specific breeds), congenital conditions (defects present from birth), specialist consultations and referrals, diagnostic imaging (X-ray, MRI, ultrasound), physiotherapy and rehabilitation, and in some cases, dental illness treatment.
+
+What's typically not covered: routine wellness (unless you purchase a wellness add-on), preventive treatments (flea/worm treatment, vaccinations), cosmetic procedures, breeding costs and pre-existing conditions.`,
     faqs: [
-      { q: 'Which is the best cat insurance in NZ?', a: 'It depends on your cat. For fastest claims: SPCA Pet Insurance. For 100% reimbursement: PD Insurance. For older cats: Pet-n-Sur. For best value online: Cove. For most comprehensive: Southern Cross.' },
-      { q: 'How do I compare cat insurance in NZ?', a: 'Compare annual limits, excess amounts, co-payment percentages, hereditary condition cover, entry age limits, and claims turnaround times. Use our comparison table to see all six providers side by side.' },
-      { q: 'Is cat insurance worth it in NZ?', a: 'Yes — with NZ vet costs increasing 8–12% annually and specialist treatments costing $3,000–$15,000, insurance paying $20–$45/month provides substantial financial protection.' },
+      { q: 'Which is the best cat insurance in NZ in 2026?', a: 'There is no single "best" — the right provider depends on your cat. For fastest claims: SPCA Pet Insurance (1–2 days). For 100% reimbursement with no excess: PD Insurance. For older cats (up to 11yr 11mo): Pet-n-Sur. For highest annual limit ($25,000): Cove. For most comprehensive modular cover: Southern Cross. For most established provider: Petcover.' },
+      { q: 'How do I compare cat insurance in NZ?', a: 'Compare these 6 key factors: (1) annual limit — higher is better; (2) excess amount — lower means more back per claim; (3) co-payment percentage — lower is better; (4) hereditary condition cover — essential for pedigree breeds; (5) entry age limit — critical for cats over 7; (6) claims turnaround — how quickly you\'re reimbursed after paying the vet.' },
+      { q: 'Is cat insurance worth it in NZ?', a: 'Yes, for most cat owners. With NZ vet costs increasing 8–12% annually and specialist treatments costing $3,000–$15,000, a $25–$45/month premium provides significant financial protection. Most insured cats have at least one major health event in their lifetime. The peace of mind alone — knowing you can say yes to treatment without checking your bank account — is valuable.' },
+      { q: 'When is the best time to get cat insurance?', a: 'As early as possible. Kitten premiums are lowest, and any conditions that develop after the policy starts are covered. Waiting means any new symptoms could become "pre-existing" exclusions. Every month you delay is a month of potential new conditions becoming uninsurable.' },
+      { q: 'Do NZ cat insurance policies cover hereditary conditions?', a: 'Most do — but not all. Southern Cross PetCare specifically excludes hereditary and congenital conditions. Cove, Petcover Premier, SPCA Pet Insurance, PD Insurance and Pet-n-Sur all include hereditary conditions in their comprehensive plans. This is a critical distinction for pedigree breed owners.' },
     ],
   },
   {
