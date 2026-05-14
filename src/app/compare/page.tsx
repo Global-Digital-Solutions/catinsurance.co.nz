@@ -117,7 +117,7 @@ export default function ComparePage() {
                     rel="noopener noreferrer nofollow"
                     className="block w-full bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-semibold py-2.5 rounded-lg text-center transition-colors"
                   >
-                    Get Quote from {p.name.split(' ')[0]} →
+                    Get Quote →
                   </a>
                 </div>
               </div>
