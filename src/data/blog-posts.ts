@@ -14,17 +14,17 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'how-much-does-cat-insurance-cost-nz',
-    title: 'How Much Does Cat Insurance Cost in NZ? (2025 Guide)',
+    title: 'How Much Does Cat Insurance Cost in NZ? (2026 Guide)',
     excerpt: 'Cat insurance in NZ starts from $11/month but varies widely. We break down the real costs, what affects your premium, and how to get the best value.',
-    date: '2025-05-01',
+    date: '2026-05-01',
     readTime: '8 min read',
     category: 'Buying Guide',
     image: 'https://images.unsplash.com/photo-1574158622682-e40e69881006?w=800&q=80',
-    metaTitle: 'How Much Does Cat Insurance Cost in NZ? 2025 Prices | CatInsurance.co.nz',
-    metaDescription: 'Full breakdown of cat insurance costs in New Zealand for 2025. Monthly premiums, annual limits, excess and co-payment explained. Find the best value cover.',
-    content: `Cat insurance in New Zealand has never been more accessible — or more necessary. Vet costs have risen 8–12% annually for the past five years, and a serious illness or injury can easily cost $5,000–$15,000. Here's exactly what you'll pay for cat insurance in NZ in 2025.
+    metaTitle: 'How Much Does Cat Insurance Cost in NZ? 2026 Prices | CatInsurance.co.nz',
+    metaDescription: 'Full breakdown of cat insurance costs in New Zealand for 2026. Monthly premiums, annual limits, excess and co-payment explained. Find the best value cover.',
+    content: `Cat insurance has never been more accessible — or more necessary. Vet costs have risen 8–12% annually for the past five years, and a serious illness or injury can easily cost $5,000–$15,000. Here's exactly what you'll pay for cat insurance in 2026.
 
-## Average Cat Insurance Costs in NZ
+## Average Cat Insurance Costs
 
 | Plan Type | Monthly Cost Range | What's Covered |
 |-----------|-------------------|----------------|
@@ -48,7 +48,7 @@ These figures are for an average domestic shorthair aged 2–4 years. Pedigree b
 
 **6. Optional extras.** Adding dental or wellness cover increases premiums by $5–$15/month.
 
-## Real Premium Examples (2025)
+## Real Premium Examples (2026)
 
 **Domestic shorthair, 2 years, accident + illness:**
 - Southern Cross PetCare: ~$25–$35/month
@@ -65,7 +65,7 @@ These figures are for an average domestic shorthair aged 2–4 years. Pedigree b
 
 ## Is Cat Insurance Worth the Cost?
 
-Consider these NZ vet cost benchmarks:
+Consider these vet cost benchmarks:
 - Emergency consultation (after hours): $200–$450
 - X-rays: $400–$800
 - Foreign body surgery: $2,500–$5,000
@@ -88,13 +88,13 @@ At $30/month, you'd pay $360/year in premiums. A single foreign body surgery ($3
     slug: 'cat-insurance-vs-savings-nz',
     title: 'Cat Insurance vs Pet Savings Account — Which is Better for NZ Cat Owners?',
     excerpt: 'Should you pay for cat insurance or build a pet savings fund? We run the numbers for NZ cat owners to help you decide.',
-    date: '2025-04-15',
+    date: '2026-04-15',
     readTime: '7 min read',
     category: 'Buying Guide',
     image: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=800&q=80',
     metaTitle: 'Cat Insurance vs Pet Savings — Which Is Better? NZ Guide | CatInsurance.co.nz',
     metaDescription: 'Cat insurance or a pet savings account — which is better for NZ cat owners? We compare the costs, risks and outcomes to help you decide.',
-    content: `One of the most common questions from NZ cat owners: "Why pay for insurance when I can just save the money myself?" It's a fair question. Let's run the numbers.
+    content: `One of the most common questions from cat owners: "Why pay for insurance when I can just save the money myself?" It's a fair question. Let's run the numbers.
 
 ## The Case for a Pet Savings Account
 
@@ -109,7 +109,7 @@ If you save $30/month (what you might pay in insurance) for 10 years, you'd accu
 **Disadvantages:**
 - Zero protection in year one. A kitten that needs $4,000 surgery in month three of your savings plan leaves you $3,930 short.
 - Catastrophic events can exceed savings quickly. Cancer treatment at $10,000+ will exhaust even a well-funded savings account.
-- Most NZ households don't have $5,000+ in liquid savings earmarked for their cat.
+- Most households don't have $5,000+ in liquid savings earmarked for their cat.
 
 ## The Case for Cat Insurance
 
@@ -152,18 +152,18 @@ A savings account wins for perfectly healthy cats with no chronic conditions —
     slug: 'what-does-cat-insurance-cover-nz',
     title: 'What Does Cat Insurance Actually Cover in New Zealand?',
     excerpt: 'Not sure what NZ cat insurance covers? We break down exactly what\'s included, what\'s excluded, and what to watch out for when reading the fine print.',
-    date: '2025-04-01',
+    date: '2026-04-01',
     readTime: '9 min read',
     category: 'Policy Guide',
     image: '/hero-cats-3.jpg',
     metaTitle: 'What Does Cat Insurance Cover in NZ? Full Policy Guide | CatInsurance.co.nz',
     metaDescription: 'Full guide to what NZ cat insurance covers and excludes. Accidents, illness, hereditary conditions, pre-existing, dental, wellness — all explained.',
-    content: `Cat insurance policies can be confusing. Here's a plain-English guide to exactly what New Zealand cat insurance covers — and what it doesn't.
+    content: `Cat insurance policies can be confusing. Here's a plain-English guide to exactly what cat insurance covers — and what it doesn't.
 
 ## What Cat Insurance Covers
 
 ### Accidents
-All NZ cat insurance plans include accident cover:
+All cat insurance plans include accident cover:
 - Road traffic accidents
 - Falls and fractures
 - Bite wounds from other animals
@@ -229,7 +229,7 @@ These can be added via wellness add-ons on some plans.
 
 ## Common Exclusions to Watch For
 
-**Stand-down periods:** Most NZ insurers apply a 21-day stand-down for illnesses (no claims for conditions arising in the first 21 days). Accidents usually have no stand-down. Cruciate ligament conditions often have a 90-day or 6-month stand-down.
+**Stand-down periods:** Most insurers apply a 21-day stand-down for illnesses (no claims for conditions arising in the first 21 days). Accidents usually have no stand-down. Cruciate ligament conditions often have a 90-day or 6-month stand-down.
 
 **Bilateral conditions:** Some insurers apply a separate excess or limit for conditions affecting both sides of the body (e.g., both hips).
 
@@ -250,13 +250,13 @@ When comparing policies, look specifically for:
     slug: 'ragdoll-cat-insurance-nz',
     title: 'Ragdoll Cat Insurance NZ — What to Know Before You Buy',
     excerpt: 'Ragdolls are gorgeous and gentle — but prone to HCM and kidney disease. Here\'s what NZ Ragdoll owners should know about getting the right insurance.',
-    date: '2025-03-20',
+    date: '2026-03-20',
     readTime: '7 min read',
     category: 'Breed Guide',
     image: '/hero-ragdoll.jpg',
     metaTitle: 'Ragdoll Cat Insurance NZ — HCM Cover & Best Plans | CatInsurance.co.nz',
     metaDescription: 'Ragdoll cat insurance in NZ. Which insurers cover HCM and hereditary conditions? Compare the best insurance for Ragdoll cats from NZ\'s top providers.',
-    content: `Ragdolls are one of New Zealand's most popular pedigree cats — loved for their docile temperament, large size and striking blue eyes. But Ragdolls carry significant genetic health risks that make comprehensive insurance essential.
+    content: `Ragdolls are one of our most popular pedigree cats — loved for their docile temperament, large size and striking blue eyes. But Ragdolls carry significant genetic health risks that make comprehensive insurance essential.
 
 ## Ragdoll Health Risks
 
@@ -268,7 +268,7 @@ When comparing policies, look specifically for:
 
 **Urinary Conditions:** Large male Ragdolls are susceptible to urinary blockages — a potentially life-threatening emergency costing $2,000–$4,000 to treat.
 
-## Which NZ Insurers Cover Ragdoll Hereditary Conditions?
+## Which Insurers Cover Ragdoll Hereditary Conditions?
 
 | Insurer | HCM Covered | PKD Covered | Notes |
 |---------|------------|------------|-------|
@@ -300,13 +300,13 @@ Ragdoll premiums are higher than domestic shorthair premiums due to breed-specif
     slug: 'persian-cat-insurance-nz',
     title: 'Persian Cat Insurance NZ — PKD, Breathing & Breed Conditions Explained',
     excerpt: 'Persians are beautiful but high-maintenance. PKD, brachycephalic airways and eye conditions make insurance essential. Here\'s what NZ Persian owners need to know.',
-    date: '2025-03-05',
+    date: '2026-03-05',
     readTime: '7 min read',
     category: 'Breed Guide',
     image: '/hero-persian.jpg',
     metaTitle: 'Persian Cat Insurance NZ — PKD & Hereditary Cover | CatInsurance.co.nz',
     metaDescription: 'Persian cat insurance in NZ. Which insurers cover PKD, brachycephalic conditions and hereditary diseases? Compare the best Persian cat insurance plans.',
-    content: `Persian cats are among the most distinctive and beloved breeds in New Zealand — but their iconic flat faces and luxurious coats come with significant health trade-offs. Here's everything NZ Persian owners need to know about insurance.
+    content: `Persian cats are among the most distinctive and beloved breeds — their iconic flat faces and luxurious coats come with significant health trade-offs. Here's everything Persian owners need to know about insurance.
 
 ## Persian Health Risks
 
@@ -351,15 +351,15 @@ Annual dental add-ons typically add $8–$15/month.`,
   },
   {
     slug: 'cat-insurance-nz-beginners-guide',
-    title: 'Cat Insurance NZ: A Beginner\'s Complete Guide (2025)',
+    title: 'Cat Insurance NZ: A Beginner\'s Complete Guide (2026)',
     excerpt: 'New to cat insurance? This plain-English guide covers everything NZ cat owners need to know before buying — from how it works to what to avoid.',
-    date: '2025-02-20',
+    date: '2026-02-20',
     readTime: '12 min read',
     category: 'Buying Guide',
     image: 'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=800&q=80',
-    metaTitle: 'Cat Insurance NZ Beginner\'s Guide 2025 — How It Works | CatInsurance.co.nz',
+    metaTitle: 'Cat Insurance NZ Beginner\'s Guide 2026 — How It Works | CatInsurance.co.nz',
     metaDescription: 'Complete beginner\'s guide to cat insurance in NZ. How it works, what to look for, how to claim and how to choose the right policy. Plain English for NZ cat owners.',
-    content: `If you've just got a cat — or you've owned cats for years but never bought insurance — this guide explains everything you need to know about cat insurance in New Zealand.
+    content: `If you've just got a cat — or you've owned cats for years but never bought insurance — this guide explains everything you need to know about cat insurance.
 
 ## How Cat Insurance Works
 
@@ -368,7 +368,7 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
 **The basic process:**
 1. You sign up for a policy and pay a monthly premium
 2. Your cat gets sick or injured and needs vet treatment
-3. You pay the vet bill upfront (most NZ vets don't bill directly to insurers)
+3. You pay the vet bill upfront (most vets don't bill directly to insurers)
 4. You submit a claim online with your vet invoice
 5. The insurer reviews and pays the agreed percentage of eligible costs
 6. Payment arrives in 1–14 days depending on the insurer
@@ -381,7 +381,7 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
 
 **Co-payment (Co-pay):** The percentage of each claim you pay after the excess. A 20% co-pay on a $2,000 claim (after $500 excess) means you pay an additional $300.
 
-**Annual limit:** The maximum the insurer will pay in a policy year. Most NZ plans range from $2,500–$25,000.
+**Annual limit:** The maximum the insurer will pay in a policy year. Most plans range from $2,500–$25,000.
 
 **Benefit rate:** The percentage of eligible costs the insurer covers. "100% benefit rate" with 0% co-pay means full reimbursement of eligible costs.
 
@@ -427,15 +427,15 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
     slug: 'cat-insurance-claims-guide-nz',
     title: 'How to Claim Cat Insurance in NZ — Step by Step Guide',
     excerpt: 'Making a cat insurance claim in NZ is straightforward if you know what to do. Here\'s our step-by-step guide for all six major NZ cat insurers.',
-    date: '2025-02-05',
+    date: '2026-02-05',
     readTime: '6 min read',
     category: 'Policy Guide',
     image: '/hero-cats-4.jpg',
     metaTitle: 'How to Claim Cat Insurance NZ — Step by Step Guide | CatInsurance.co.nz',
     metaDescription: 'Step-by-step guide to claiming cat insurance in NZ. How to claim with SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance.',
-    content: `Making a cat insurance claim doesn't have to be stressful. Here's how to claim with each of New Zealand's major cat insurance providers.
+    content: `Making a cat insurance claim doesn't have to be stressful. Here's how to claim with each of our major cat insurance providers.
 
-## General Claims Process (All NZ Insurers)
+## General Claims Process
 
 **Step 1: Visit your vet.** Get your cat treated. Ask the vet for an itemised invoice that lists each treatment, medication and consultation fee separately.
 
@@ -453,7 +453,7 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
 
 **Step 5: Receive payment.** Payment goes to your nominated bank account.
 
-## Claiming with Each NZ Insurer
+## Claiming with Each Insurer
 
 ### SPCA Pet Insurance
 - **How to claim:** Online portal at spcapetinsurance.co.nz
@@ -509,13 +509,13 @@ Cat insurance works like most other insurance: you pay a monthly premium, and if
     slug: 'maine-coon-cat-insurance-nz',
     title: 'Maine Coon Cat Insurance NZ — Comprehensive Cover for the Giant Breed',
     excerpt: 'Maine Coons are NZ\'s most popular large breed — and prone to HCM, hip dysplasia and SMA. Here\'s what Maine Coon owners need from their insurance.',
-    date: '2025-01-22',
+    date: '2026-01-22',
     readTime: '7 min read',
     category: 'Breed Guide',
     image: '/hero-maine-coon.jpg',
     metaTitle: 'Maine Coon Cat Insurance NZ — HCM & Hip Dysplasia Cover | CatInsurance.co.nz',
     metaDescription: 'Maine Coon cat insurance in NZ. Which insurers cover HCM, SMA and hip dysplasia? Compare the best insurance for Maine Coon cats in New Zealand.',
-    content: `Maine Coons are magnificent cats — the largest domestic breed, known for their dog-like personalities and stunning coats. But their size and genetics bring significant health considerations that every NZ Maine Coon owner should understand before choosing insurance.
+    content: `Maine Coons are magnificent cats — the largest domestic breed, known for their dog-like personalities and stunning coats. But their size and genetics bring significant health considerations that every Maine Coon owner should understand before choosing insurance.
 
 ## Maine Coon Health Risks
 
@@ -558,13 +558,13 @@ Maine Coons attract premium loadings due to HCM and hip dysplasia risk. Expect t
     slug: 'spca-pet-insurance-review-nz',
     title: 'SPCA Pet Insurance Review NZ — Is It the Best Cat Insurer?',
     excerpt: 'SPCA Pet Insurance claims the fastest turnaround in NZ and unique pre-existing condition cover. But is it the best choice for your cat? Our independent review.',
-    date: '2025-01-10',
+    date: '2026-01-10',
     readTime: '8 min read',
     category: 'Provider Review',
     image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=800&q=80',
-    metaTitle: 'SPCA Pet Insurance Review NZ 2025 — Is It Worth It? | CatInsurance.co.nz',
-    metaDescription: 'Independent review of SPCA Pet Insurance in NZ 2025. Plans, prices, claims, pros and cons. Is SPCA Pet Insurance the best cat insurer for New Zealand?',
-    content: `SPCA Pet Insurance is consistently rated one of NZ's best cat insurers — and for good reason. It offers the fastest claims in New Zealand (1–2 business days) and a unique policy feature no other NZ insurer offers: coverage for non-chronic pre-existing conditions. But it's not perfect for everyone.
+    metaTitle: 'SPCA Pet Insurance Review NZ 2026 — Is It Worth It? | CatInsurance.co.nz',
+    metaDescription: 'Independent review of SPCA Pet Insurance in NZ 2025. Plans, prices, claims, pros and cons. Is SPCA Pet Insurance the best cat insurer?',
+    content: `SPCA Pet Insurance is consistently rated one of the best cat insurers around — and for good reason. It offers the fastest claims in New Zealand (1–2 business days) and a unique policy feature no other insurer offers: coverage for non-chronic pre-existing conditions. But it's not perfect for everyone.
 
 ## SPCA Pet Insurance Plans
 
@@ -595,7 +595,7 @@ SPCA Pet Insurance offers three main plans for cats:
 ## Pros and Cons
 
 **Pros:**
-✅ Fastest claims in NZ (1–2 business days)
+✅ Fastest claims turnaround (1–2 business days)
 ✅ Unique pre-existing condition cover
 ✅ Unlimited chronic condition cover (Big Stuff + Works)
 ✅ Hereditary conditions covered
@@ -622,25 +622,25 @@ SPCA Pet Insurance offers three main plans for cats:
 
 ## Verdict
 
-SPCA Pet Insurance earns its reputation as NZ's best cat insurer for most owners. The 1–2 day claims turnaround and unique pre-existing condition cover are genuine differentiators. The lack of dental and wellness extras is the main limitation.
+SPCA Pet Insurance earns its reputation as the best cat insurer for most owners. The 1–2 day claims turnaround and unique pre-existing condition cover are genuine differentiators. The lack of dental and wellness extras is the main limitation.
 
-**Rating: 4.7/5** — Recommended for most NZ cat owners`,
+**Rating: 4.7/5** — Recommended for most cat owners`,
   },
   {
     slug: 'pd-insurance-cat-review-nz',
     title: 'PD Insurance Cat Insurance Review NZ — 100% Reimbursement Explained',
     excerpt: 'PD Insurance promises 100% reimbursement with no excess and no co-payment. Is it too good to be true? We review PD Insurance\'s cat cover for NZ owners.',
-    date: '2024-12-15',
+    date: '2025-12-15',
     readTime: '7 min read',
     category: 'Provider Review',
     image: '/hero-burmese.jpg',
-    metaTitle: 'PD Insurance Cat Review NZ 2025 — 100% Reimbursement | CatInsurance.co.nz',
-    metaDescription: 'Independent review of PD Insurance cat insurance NZ 2025. 100% reimbursement, no co-pay, no excess explained. Is PD Insurance good value for NZ cat owners?',
-    content: `PD Insurance is one of the newer NZ cat insurers (founded 2016) but has quickly earned a strong reputation for its straightforward 100% reimbursement model. No co-payment, no standard excess — just full reimbursement of eligible vet bills. Here's our honest review.
+    metaTitle: 'PD Insurance Cat Review NZ 2026 — 100% Reimbursement | CatInsurance.co.nz',
+    metaDescription: 'Independent review of PD Insurance cat insurance 2026. 100% reimbursement, no co-pay, no excess explained. Is PD Insurance good value for NZ cat owners?',
+    content: `PD Insurance is one of the newer insurers on the market (founded 2016) but has quickly earned a strong reputation for its straightforward 100% reimbursement model. No co-payment, no standard excess — just full reimbursement of eligible vet bills. Here's our honest review.
 
 ## What Makes PD Insurance Different?
 
-Most NZ cat insurers use a benefit structure where you pay:
+Most cat insurers use a benefit structure where you pay:
 1. An excess ($100–$1,000)
 2. A co-payment (10–30% of remaining costs)
 
@@ -717,13 +717,13 @@ PD Insurance's 100% reimbursement model is genuinely unique and makes claim math
     slug: 'cat-insurance-pre-existing-conditions-nz',
     title: 'Cat Insurance and Pre-existing Conditions NZ — What\'s Covered?',
     excerpt: 'Pre-existing conditions are the most common reason NZ cat insurance claims are declined. Here\'s what you need to know — and which insurer offers unique cover.',
-    date: '2024-11-28',
+    date: '2025-11-28',
     readTime: '8 min read',
     category: 'Policy Guide',
     image: 'https://images.unsplash.com/photo-1561948955-570b270e7c36?w=800&q=80',
     metaTitle: 'Cat Insurance Pre-existing Conditions NZ — What\'s Covered? | CatInsurance.co.nz',
     metaDescription: 'How NZ cat insurers treat pre-existing conditions. Which conditions are excluded? Can you get cover for pre-existing conditions? NZ cat insurance guide.',
-    content: `Pre-existing conditions are the most common source of frustration for NZ cat insurance claimants. Understanding how insurers treat them — and which insurer offers unique pre-existing condition cover — can make a significant difference to your cat's coverage.
+    content: `Pre-existing conditions are the most common source of frustration for cat insurance claimants. Understanding how insurers treat them — and which insurer offers unique pre-existing condition cover — can make a significant difference to your cat's coverage.
 
 ## What is a Pre-existing Condition?
 
@@ -734,9 +734,9 @@ A pre-existing condition is any illness, injury or symptom that your cat had, or
 - Conditions documented in vet records before your start date
 - Bilateral conditions — if one side was affected before your policy, the other side may be excluded
 
-## How NZ Insurers Handle Pre-existing Conditions
+## How Insurers Handle Pre-existing Conditions
 
-**Almost all NZ cat insurers exclude pre-existing conditions entirely.** There are no standard exceptions.
+**Almost all cat insurers exclude pre-existing conditions entirely.** There are no standard exceptions.
 
 However, **SPCA Pet Insurance offers a unique policy:** they will consider covering non-chronic pre-existing conditions if your cat has been symptom-free for a qualifying period. This means:
 
@@ -744,7 +744,7 @@ However, **SPCA Pet Insurance offers a unique policy:** they will consider cover
 - A cat that had a skin condition that resolved could be covered for future skin events
 - Chronic, ongoing conditions are still excluded
 
-This is genuinely unique in NZ and makes SPCA Pet Insurance particularly valuable for cats with health histories.
+This is genuinely unique and makes SPCA Pet Insurance particularly valuable for cats with health histories.
 
 ## Common Pre-existing Conditions that Create Problems
 
@@ -783,13 +783,13 @@ If your claim is declined citing a pre-existing condition, ask the insurer to sp
     slug: 'spca-vs-southern-cross-cat-insurance',
     title: 'SPCA Pet Insurance vs Southern Cross — Which is Better for NZ Cats?',
     excerpt: 'SPCA Pet Insurance and Southern Cross are two of NZ\'s most popular cat insurers. We compare them head-to-head so you can choose the right one for your cat.',
-    date: '2024-11-10',
+    date: '2025-11-10',
     readTime: '8 min read',
     category: 'Comparison',
     image: 'https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=800&q=80',
     metaTitle: 'SPCA Pet Insurance vs Southern Cross Cat Insurance NZ | CatInsurance.co.nz',
     metaDescription: 'SPCA Pet Insurance vs Southern Cross — detailed NZ cat insurance comparison. Claims, cover, pricing and features compared head-to-head.',
-    content: `SPCA Pet Insurance and Southern Cross are two of the most trusted names in NZ cat insurance. Both have strong reputations — but they take very different approaches. Here's a direct comparison to help you choose.
+    content: `SPCA Pet Insurance and Southern Cross are two of the most trusted names in cat insurance. Both have strong reputations — but they take very different approaches. Here's a direct comparison to help you choose.
 
 ## Side-by-Side Comparison
 
@@ -810,7 +810,7 @@ If your claim is declined citing a pre-existing condition, ask the insurer to sp
 
 ## Claims: SPCA Wins Easily
 
-SPCA Pet Insurance's 1–2 day claims turnaround is the fastest in NZ — Southern Cross takes up to 10 days. For most cat owners, this is the most practically important difference.
+SPCA Pet Insurance's 1–2 day claims turnaround is the fastest available — Southern Cross takes up to 10 days. For most cat owners, this is the most practically important difference.
 
 ## Pedigree Breeds: SPCA Wins
 
@@ -830,7 +830,7 @@ Southern Cross offers more customisation — you choose your excess ($100, $250 
 
 ## Price: Southern Cross Wins
 
-Southern Cross AcciPet at $11/month is the cheapest cat insurance in NZ. Southern Cross is generally 10–20% cheaper than SPCA Pet Insurance for equivalent cover — primarily because it doesn't cover hereditary conditions.
+Southern Cross AcciPet at $11/month is the most affordable entry-level option. Southern Cross is generally 10–20% cheaper than SPCA Pet Insurance for equivalent cover — primarily because it doesn't cover hereditary conditions.
 
 ## Who Should Choose Each?
 
@@ -850,6 +850,6 @@ Southern Cross AcciPet at $11/month is the cheapest cat insurance in NZ. Souther
 
 ## Verdict
 
-For most NZ cat owners with pedigree breeds or complex health histories — SPCA Pet Insurance is the better choice. For budget-conscious owners of healthy domestic cats who want flexibility and add-ons — Southern Cross is excellent value. They serve different customer segments well.`,
+For most cat owners with pedigree breeds or complex health histories — SPCA Pet Insurance is the better choice. For budget-conscious owners of healthy domestic cats who want flexibility and add-ons — Southern Cross is excellent value. They serve different customer segments well.`,
   },
 ];

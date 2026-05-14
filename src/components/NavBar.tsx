@@ -37,7 +37,7 @@ export default function NavBar() {
         { label: 'View All Breeds', href: '/breeds' },
       ],
     },
-    { label: 'Blog', href: '/blog' },
+    { label: 'Resources', href: '/blog' },
     { label: 'FAQs', href: '/faqs' },
   ];
 
