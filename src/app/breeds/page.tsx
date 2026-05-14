@@ -5,7 +5,7 @@ import { catBreeds } from '@/data/breeds';
 
 // Verified cat-only Unsplash photos, one per breed
 const BREED_CARD_IMAGES: Record<string, string> = {
-  'domestic-shorthair': 'https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=400&q=75',
+  'domestic-shorthair': '/hero-domestic-shorthair.jpg',
   'ragdoll':            '/hero-ragdoll.jpg',
   'maine-coon':         '/hero-maine-coon.jpg',
   'persian':            '/hero-persian.jpg',
