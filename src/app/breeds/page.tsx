@@ -10,7 +10,7 @@ const BREED_CARD_IMAGES: Record<string, string> = {
   'maine-coon':         '/hero-maine-coon.jpg',
   'persian':            '/hero-persian.jpg',
   'british-shorthair':  'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&q=75',
-  'bengal':             'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=400&q=75',
+  'bengal':             '/hero-bengal.jpg',
   'siamese':            'https://images.unsplash.com/photo-1561948955-570b270e7c36?w=400&q=75',
   'burmese':            '/hero-burmese.jpg',
   'russian-blue':       'https://images.unsplash.com/photo-1479065476818-424362b0cf5f?w=400&q=75',
