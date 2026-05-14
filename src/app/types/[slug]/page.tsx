@@ -78,14 +78,7 @@ export default function CoverageTypePage({ params }: Props) {
               {type.details && (
                 <div className="bg-slate-50 rounded-xl p-6">
                   <h2 className="text-xl font-bold text-slate-900 mb-3">What&apos;s Included</h2>
-                  <ul className="grid grid-cols-2 gap-2">
-                    {type.details.map((d) => (
-                      <li key={d} className="flex items-start gap-2 text-sm text-slate-700">
-                        <span className="text-emerald-500 mt-0.5">✓</span>
-                        <span>{d}</span>
-                      </li>
-                    ))}
-                  </ul>
+                  <p className="text-sm text-slate-700 leading-relaxed">{type.details}</p>
                 </div>
               )}
 
@@ -164,7 +157,7 @@ export default function CoverageTypePage({ params }: Props) {
                         href={link.href}
                         className="block text-sm text-emerald-600 hover:text-emerald-700"
                       >
-                        {link.label} →
+                        {link.text} →
                       </Link>
                     ))}
                   </div>
