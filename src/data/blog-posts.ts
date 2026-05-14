@@ -303,7 +303,7 @@ Ragdoll premiums are higher than domestic shorthair premiums due to breed-specif
     date: '2025-03-05',
     readTime: '7 min read',
     category: 'Breed Guide',
-    image: '/hero-cats-1.jpg',
+    image: '/hero-persian.jpg',
     metaTitle: 'Persian Cat Insurance NZ — PKD & Hereditary Cover | CatInsurance.co.nz',
     metaDescription: 'Persian cat insurance in NZ. Which insurers cover PKD, brachycephalic conditions and hereditary diseases? Compare the best Persian cat insurance plans.',
     content: `Persian cats are among the most distinctive and beloved breeds in New Zealand — but their iconic flat faces and luxurious coats come with significant health trade-offs. Here's everything NZ Persian owners need to know about insurance.

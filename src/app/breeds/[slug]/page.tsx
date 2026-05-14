@@ -26,7 +26,7 @@ const BREED_IMAGES: Record<string, string> = {
   'domestic-shorthair': '/hero-cats-1.jpg',
   'ragdoll':            '/hero-cats-2.jpg',
   'maine-coon':         '/hero-maine-coon.jpg',
-  'persian':            '/hero-cats-4.jpg',
+  'persian':            '/hero-persian.jpg',
   'british-shorthair':  '/hero-cats-1.jpg',
   'bengal':             '/hero-cats-2.jpg',
   'siamese':            '/hero-cats-3.jpg',
