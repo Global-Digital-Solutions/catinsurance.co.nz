@@ -18,6 +18,7 @@ export default function Logo({ variant = 'default', size = 'md' }: LogoProps) {
   return (
     <span className={`font-bold ${sizeClasses[size]} tracking-tight`}>
       <span className={accentColor}>Cat</span>
+      <span style={{ letterSpacing: '0.01em' }}>&thinsp;</span>
       <span className={textColor}>Insurance</span>
       <span className={accentColor}>.co.nz</span>
     </span>
