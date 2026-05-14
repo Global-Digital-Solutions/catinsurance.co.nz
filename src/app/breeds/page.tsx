@@ -12,7 +12,7 @@ const BREED_CARD_IMAGES: Record<string, string> = {
   'british-shorthair':  'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=400&q=75',
   'bengal':             'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=400&q=75',
   'siamese':            'https://images.unsplash.com/photo-1561948955-570b270e7c36?w=400&q=75',
-  'burmese':            'https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=400&q=75',
+  'burmese':            '/hero-burmese.jpg',
   'russian-blue':       'https://images.unsplash.com/photo-1479065476818-424362b0cf5f?w=400&q=75',
   'scottish-fold':      'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=75',
   'devon-rex':          'https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=400&q=75',
