@@ -4,6 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Thank You — CatInsurance.co.nz',
   description: 'Thank you for your message. We\'ll be in touch soon.',
+  alternates: { canonical: 'https://www.catinsurance.co.nz/thank-you/' },
 };
 
 export default function ThankYouPage() {

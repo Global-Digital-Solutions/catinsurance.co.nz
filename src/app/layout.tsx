@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: '%s | CatInsurance.co.nz',
   },
   description: 'Compare cat insurance in New Zealand. Find the best cover for your cat from SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance. Cat cover from $11/month.',
-  metadataBase: new URL('https://catinsurance.co.nz'),
+  metadataBase: new URL('https://www.catinsurance.co.nz'),
   openGraph: {
     siteName: 'CatInsurance.co.nz',
     locale: 'en_NZ',
@@ -37,8 +37,8 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'CatInsurance.co.nz',
-  url: 'https://catinsurance.co.nz',
-  logo: 'https://catinsurance.co.nz/logo.png',
+  url: 'https://www.catinsurance.co.nz',
+  logo: 'https://www.catinsurance.co.nz/logo.png',
   contactPoint: {
     '@type': 'ContactPoint',
     email: 'hello@cover4you.co.nz',
@@ -53,12 +53,12 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'CatInsurance.co.nz',
-  url: 'https://catinsurance.co.nz',
+  url: 'https://www.catinsurance.co.nz',
   potentialAction: {
     '@type': 'SearchAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://catinsurance.co.nz/search?q={search_term_string}',
+      urlTemplate: 'https://www.catinsurance.co.nz/search?q={search_term_string}',
     },
     'query-input': 'required name=search_term_string',
   },

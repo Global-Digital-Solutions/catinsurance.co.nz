@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'About CatInsurance.co.nz — NZ\'s Independent Cat Insurance Guide',
   description: 'About CatInsurance.co.nz — New Zealand\'s independent cat insurance comparison and information service. We help Kiwi cat owners compare providers and find the right cover.',
   alternates: {
-    canonical: 'https://www.catinsurance.co.nz/about',
+    canonical: 'https://www.catinsurance.co.nz/about/',
   },
   openGraph: {
     title: 'About CatInsurance.co.nz — NZ\'s Independent Cat Insurance Guide',

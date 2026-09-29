@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     title: 'Cat Insurance — Compare & Save | CatInsurance.co.nz',
     description: 'Compare 6 NZ cat insurance providers side by side. Cover from $11/month. 100% independent.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/' },
 };
 
 const badgeColorMap: Record<string, string> = {

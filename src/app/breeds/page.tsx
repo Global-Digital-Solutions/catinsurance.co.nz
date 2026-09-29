@@ -33,6 +33,7 @@ export const metadata: Metadata = {
     title: 'Cat Insurance by Breed NZ',
     description: 'Breed-specific cat insurance advice for all popular NZ breeds.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/breeds/' },
 };
 
 const breedsCollectionSchema = {

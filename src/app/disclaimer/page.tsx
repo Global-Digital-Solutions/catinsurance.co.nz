@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Disclaimer — CatInsurance.co.nz',
   description: 'Disclaimer for CatInsurance.co.nz — general advice warning and important disclosures.',
+  alternates: { canonical: 'https://www.catinsurance.co.nz/disclaimer/' },
 };
 
 export default function DisclaimerPage() {

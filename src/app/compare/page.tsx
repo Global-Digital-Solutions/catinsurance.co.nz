@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     title: 'Compare Cat Insurance NZ — All 6 Providers',
     description: 'Compare SPCA Pet Insurance, Southern Cross, Petcover, Cove, Pet-n-Sur and PD Insurance side by side.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/compare/' },
 };
 
 const compareSchema = {

@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     title: 'Cat Insurance Coverage Types NZ',
     description: 'All six cat insurance coverage types explained — from accident only to comprehensive cover.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/coverage/' },
 };
 
 const coverageCollectionSchema = {

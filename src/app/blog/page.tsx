@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     title: 'Cat Insurance Resources NZ',
     description: 'Expert cat insurance guides — breed guides, policy comparisons, claims advice and money-saving tips.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/blog/' },
 };
 
 const blogCollectionSchema = {

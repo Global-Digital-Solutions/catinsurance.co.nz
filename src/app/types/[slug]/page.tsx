@@ -30,6 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: type.metaTitle,
       description: type.metaDescription,
     },
+    alternates: { canonical: `https://www.catinsurance.co.nz/types/${params.slug}/` },
   };
 }
 

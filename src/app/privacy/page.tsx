@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Privacy Policy — CatInsurance.co.nz',
   description: 'Privacy policy for CatInsurance.co.nz — how we collect, use and protect your personal information.',
+  alternates: { canonical: 'https://www.catinsurance.co.nz/privacy/' },
 };
 
 export default function PrivacyPage() {

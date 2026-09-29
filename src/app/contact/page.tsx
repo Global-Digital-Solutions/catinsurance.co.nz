@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     title: 'Contact CatInsurance.co.nz',
     description: 'Questions about cat insurance? Get in touch with our team.',
   },
+  alternates: { canonical: 'https://www.catinsurance.co.nz/contact/' },
 };
 
 const contactSchema = {

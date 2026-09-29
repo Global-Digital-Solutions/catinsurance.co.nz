@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Use — CatInsurance.co.nz',
   description: 'Terms of use for CatInsurance.co.nz.',
+  alternates: { canonical: 'https://www.catinsurance.co.nz/terms/' },
 };
 
 export default function TermsPage() {
